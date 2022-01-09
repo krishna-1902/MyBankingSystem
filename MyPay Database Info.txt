@@ -1,0 +1,34 @@
+DATABASE : bank
+
+TABLES : accountant,mypay;
+
+TABLE ACCOUNTANT COLUMNS :
+account_number	varchar(20);	primary key;
+ph_no		varchar(20)	unique;
+name		varchar(50);
+balance		varchar(20)
+aadhar		varchar(20);
+dob		varchar(20);
+address		varchar(50);
+account_type	varchar(20);
+gender		varchar(20);
+atm_pin		varchar(20);
+atm_number	varchar(20);
+
+TABLE mybank Columns:
+phone_number	varchar(20);
+mypay_wallet	varchar(20);
+upi_pin		varchar(20);
+upi_id		varchar(20);
+linked		varchar(20);
+
+TABLE transaction Columns:
+account_number	varchar(20);
+date_time 	varchar(50);
+transaction_details 	varchar(50);
+
+TABLE mypay_transaction column:
+ph_no		varchar(20);
+timming 	varchar(50);
+mypay_details	varchar(50); 
+
